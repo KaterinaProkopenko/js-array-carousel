@@ -19,7 +19,7 @@ const carouselContainer = document.querySelector('div.left-img');
 carouselContainer.innerHTML += carouselImmages;
 
 const carouselElement = document.getElementsByClassName('img-container');
-const carouselSmallElement = document.getElementsByClassName('my-small-img');
+const carouselSmallElement = document.getElementsByClassName('small-img');
 
 carouselElement[0].classList.add('active');
 carouselSmallElement[0].classList.add('active-small');

@@ -5,21 +5,22 @@ main {
 
 .left-img img {
     width: 100%;
-    height: 410px;
+    height: 450px;
+    object-fit: cover;
 }
 
 div.my-container {
     width: 900px;
-    height: 410px;
+    height: 500px;
     transform: translate(-50%, -50%);
 }
 
 div.right {
-    height: 410px;
+    height: 450px;
 }
 
 div.left-img {
-    height: 410px;
+    height: 450px;
 }
 
 .img-container {
@@ -31,12 +32,16 @@ div.left-img {
 }
 
 div.my-small-img {
-    flex-basis: calc((100% / 5) - 1.5px);
+    height: 90px;
 }
 
 div.my-small-img img {
     width: 100%;
-    height: 80px;
+    height: 100%;
+}
+
+img.small-img {
+    filter: brightness(35%);
 }
 
 div.arrow {
@@ -44,10 +49,22 @@ div.arrow {
     width: 30px;
     height: 30px;
     transform: translateX(-50%);
+    z-index: 2;
 }
 
 
-div.active-small {
-    border: 4px solid red;
+img.active-small {
+    border: 3px solid rgb(192, 197, 178);
+    filter: none;
 }
 
+div#up {
+    top: .5rem;
+    left: 50%;
+}
+
+div#down {
+    line-height: 1.7rem;
+    bottom: .5rem;
+    left: 50%;
+}
