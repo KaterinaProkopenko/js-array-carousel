@@ -58,6 +58,29 @@ img.active-small {
     filter: none;
 }
 
+div.text {
+    width: 400px;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.text h4 {
+    font-weight: bold;
+}
+
+div.text p {
+    font-size: .8rem;
+}
+
+div.text-hidden {
+    display: none;
+}
+
+div.text-active{
+    display: block;
+}
+
 div#up {
     top: .5rem;
     left: 50%;
